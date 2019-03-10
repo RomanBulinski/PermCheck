@@ -9,8 +9,8 @@ public class TestPerCheck {
     @Test
     public void testSolution(){
         PermCheck permCheck = new PermCheck();
-        int[] A = { 1,2,3,4 };
-        assertEquals(  1,  permCheck.solution( A )  );
+        int[] A = { 1,2,3,4,4 };
+        assertEquals(  0,  permCheck.solution( A )  );
     }
 
     @Test
@@ -27,6 +27,26 @@ public class TestPerCheck {
         assertEquals(  0,  permCheck.solution( A )  );
     }
 
+    @Test
+    public void testSolution4(){
+        PermCheck permCheck = new PermCheck();
+        int[] A = { 13,11 };
+        assertEquals(  0,  permCheck.solution( A )  );
+    }
+
+    @Test
+    public void testSolution5(){
+        PermCheck permCheck = new PermCheck();
+        int[] A = { 11 };
+        assertEquals(  1,  permCheck.solution( A )  );
+    }
+
+    @Test
+    public void testSolution6(){
+        PermCheck permCheck = new PermCheck();
+        int[] A = { 10,11,11,11,11,15 };
+        assertEquals(  0,  permCheck.solution( A )  );
+    }
 
 
 

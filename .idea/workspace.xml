@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cceafcfc-ea31-4f45-8a73-e8f3818a4a80" name="Default Changelist" comment="Refactor code" />
+    <list default="true" id="cceafcfc-ea31-4f45-8a73-e8f3818a4a80" name="Default Changelist" comment="Refactor code">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PermCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PermCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestPerCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestPerCheck.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,11 +16,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestPerCheck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+            <state relative-caret-position="204">
+              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/PermCheck.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -25,10 +41,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/PermCheck.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -54,7 +71,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="168" />
     <option name="y" value="35" />
     <option name="width" value="1107" />
@@ -66,6 +83,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -101,11 +119,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552233874422" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552245209748" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -144,21 +161,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestPerCheck.testSolution2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestPerCheck.testSolution4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PermCheck" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestPerCheck" />
-      <option name="METHOD_NAME" value="testSolution2" />
+      <option name="METHOD_NAME" value="testSolution4" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestPerCheck.testSolution3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestPerCheck.testSolution5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PermCheck" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestPerCheck" />
-      <option name="METHOD_NAME" value="testSolution3" />
+      <option name="METHOD_NAME" value="testSolution5" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPerCheck.testSolution6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PermCheck" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestPerCheck" />
+      <option name="METHOD_NAME" value="testSolution6" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -167,9 +194,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestPerCheck" />
-        <item itemvalue="JUnit.TestPerCheck.testSolution3" />
-        <item itemvalue="JUnit.TestPerCheck.testSolution2" />
         <item itemvalue="JUnit.TestPerCheck.testSolution" />
+        <item itemvalue="JUnit.TestPerCheck.testSolution6" />
+        <item itemvalue="JUnit.TestPerCheck.testSolution5" />
+        <item itemvalue="JUnit.TestPerCheck.testSolution4" />
       </list>
     </recent_temporary>
   </component>
@@ -195,33 +223,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestPerCheck_testSolution - 2019.03.10 at 16h 54m 15s.xml">
+    <history-entry file="TestPerCheck_testSolution4 - 2019.03.10 at 17h 15m 27s.xml">
+      <configuration name="TestPerCheck.testSolution4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestPerCheck_testSolution5 - 2019.03.10 at 17h 15m 46s.xml">
+      <configuration name="TestPerCheck.testSolution5" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestPerCheck_testSolution6 - 2019.03.10 at 17h 18m 12s.xml">
+      <configuration name="TestPerCheck.testSolution6" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestPerCheck - 2019.03.10 at 19h 59m 42s.xml">
+      <configuration name="TestPerCheck" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestPerCheck_testSolution - 2019.03.10 at 20h 01m 08s.xml">
       <configuration name="TestPerCheck.testSolution" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestPerCheck_testSolution2 - 2019.03.10 at 16h 55m 17s.xml">
-      <configuration name="TestPerCheck.testSolution2" configurationId="JUnit" />
+    <history-entry file="TestPerCheck_testSolution - 2019.03.10 at 20h 02m 27s.xml">
+      <configuration name="TestPerCheck.testSolution" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestPerCheck_testSolution3 - 2019.03.10 at 16h 55m 40s.xml">
-      <configuration name="TestPerCheck.testSolution3" configurationId="JUnit" />
+    <history-entry file="TestPerCheck_testSolution - 2019.03.10 at 20h 02m 32s.xml">
+      <configuration name="TestPerCheck.testSolution" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestPerCheck_testSolution3 - 2019.03.10 at 16h 55m 51s.xml">
-      <configuration name="TestPerCheck.testSolution3" configurationId="JUnit" />
+    <history-entry file="TestPerCheck_testSolution - 2019.03.10 at 20h 02m 58s.xml">
+      <configuration name="TestPerCheck.testSolution" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestPerCheck_testSolution3 - 2019.03.10 at 16h 56m 18s.xml">
-      <configuration name="TestPerCheck.testSolution3" configurationId="JUnit" />
+    <history-entry file="TestPerCheck_testSolution - 2019.03.10 at 20h 04m 32s.xml">
+      <configuration name="TestPerCheck.testSolution" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestPerCheck_testSolution3 - 2019.03.10 at 16h 57m 03s.xml">
-      <configuration name="TestPerCheck.testSolution3" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestPerCheck - 2019.03.10 at 17h 01m 37s.xml">
-      <configuration name="TestPerCheck" configurationId="JUnit" />
+    <history-entry file="TestPerCheck_testSolution - 2019.03.10 at 20h 04m 49s.xml">
+      <configuration name="TestPerCheck.testSolution" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="39" y="-4" width="1327" height="772" extended-state="6" />
+    <frame x="38" y="-14" width="1329" height="783" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21011673" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21945526" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -231,16 +268,16 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34250763" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20489296" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32874617" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.06727829" />
       <window_info anchor="bottom" id="DB Execution Console" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.16207951" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -263,17 +300,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PermCheck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestPerCheck.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        <state relative-caret-position="204">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PermCheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
