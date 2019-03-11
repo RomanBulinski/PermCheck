@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cceafcfc-ea31-4f45-8a73-e8f3818a4a80" name="Default Changelist" comment="Refactor code">
+    <list default="true" id="cceafcfc-ea31-4f45-8a73-e8f3818a4a80" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PermCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PermCheck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestPerCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestPerCheck.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -16,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestPerCheck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+            <state relative-caret-position="680">
+              <caret line="40" column="2" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="2" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -28,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/PermCheck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+            <state relative-caret-position="272">
+              <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,8 +65,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/TestPerCheck.java" />
         <option value="$PROJECT_DIR$/src/main/java/PermCheck.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestPerCheck.java" />
       </list>
     </option>
   </component>
@@ -82,8 +81,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -119,10 +116,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552245209748" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552288678523" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -219,16 +218,17 @@
       <option name="project" value="LOCAL" />
       <updated>1552233721816</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add test with f.e. &quot;1,4,4,3&quot; and refactor code">
+      <created>1552245260212</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1552245260212</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestPerCheck_testSolution4 - 2019.03.10 at 17h 15m 27s.xml">
-      <configuration name="TestPerCheck.testSolution4" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestPerCheck_testSolution5 - 2019.03.10 at 17h 15m 46s.xml">
-      <configuration name="TestPerCheck.testSolution5" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestPerCheck_testSolution6 - 2019.03.10 at 17h 18m 12s.xml">
       <configuration name="TestPerCheck.testSolution6" configurationId="JUnit" />
     </history-entry>
@@ -253,12 +253,18 @@
     <history-entry file="TestPerCheck_testSolution - 2019.03.10 at 20h 04m 49s.xml">
       <configuration name="TestPerCheck.testSolution" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestPerCheck - 2019.03.10 at 20h 13m 02s.xml">
+      <configuration name="TestPerCheck" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestPerCheck - 2019.03.11 at 08h 03m 20s.xml">
+      <configuration name="TestPerCheck" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="38" y="-14" width="1329" height="783" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21945526" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2225681" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -268,7 +274,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20489296" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.18501529" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -290,7 +296,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Code implemented with tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Code implemented with tests" />
+    <MESSAGE value="Add test with f.e. &quot;1,4,4,3&quot; and refactor code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add test with f.e. &quot;1,4,4,3&quot; and refactor code" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -300,18 +307,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestPerCheck.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        <state relative-caret-position="680">
+          <caret line="40" column="2" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="2" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -320,11 +319,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/PermCheck.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        <state relative-caret-position="272">
+          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
