@@ -14,6 +14,14 @@ public class TestPerCheck {
     }
 
     @Test
+    public void testRepetedNumber_2(){
+        PermCheck permCheck = new PermCheck();
+        int[] A = { 10,11,11,11,11,15 };
+        assertEquals(  0,  permCheck.solution( A )  );
+    }
+
+
+    @Test
     public void testSimpleCheck_1(){
         PermCheck permCheck = new PermCheck();
         int[] A = { 13,12,10,11,14 };
@@ -21,32 +29,26 @@ public class TestPerCheck {
     }
 
     @Test
-    public void testSimpleCheck_0(){
+    public void testSimpleCheck_2(){
         PermCheck permCheck = new PermCheck();
         int[] A = { 13,12,11,14,8 };
         assertEquals(  0,  permCheck.solution( A )  );
     }
 
     @Test
-    public void testArrayLength_2(){
+    public void testArrayLength_3(){
         PermCheck permCheck = new PermCheck();
         int[] A = { 13,11 };
         assertEquals(  0,  permCheck.solution( A )  );
     }
 
     @Test
-    public void testArrayLength_1(){
+    public void testArrayLength_4(){
         PermCheck permCheck = new PermCheck();
         int[] A = { 11 };
         assertEquals(  1,  permCheck.solution( A )  );
     }
 
-    @Test
-    public void testREpetedNumbers(){
-        PermCheck permCheck = new PermCheck();
-        int[] A = { 10,11,11,11,11,15 };
-        assertEquals(  0,  permCheck.solution( A )  );
-    }
 
 
 

@@ -5,7 +5,6 @@ public class PermCheck {
 
         public int solution(int[] A){
 
-
             List<Integer> list = Arrays.stream(A).boxed().collect(Collectors.toList());
             Set<Integer> setA = new HashSet<>(list);
 
@@ -14,9 +13,7 @@ public class PermCheck {
             }
 
             int[] intArray = setA.stream().mapToInt(Integer::intValue).toArray();
-
             int length = intArray.length-1;
-
             int start = intArray[0];
             int end = intArray[intArray.length-1];
 
